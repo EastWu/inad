@@ -65,6 +65,9 @@ $(function(){
 	//奖项弹框
 	$(".prize-wp .pro").each(function(i,e){
 		$(e).click(function(){
+
+			TweenLite.to($("#info2Content"), 0, {delay:.1,css:{display:"none",opacity:0}, ease:Expo.easeOut});//关闭案例弹窗
+
 			var mk = $(e).attr("mk");
 			$(".prot").hide();
 			$(".prot").eq(i).show();
@@ -88,6 +91,7 @@ $(function(){
 	//点击案例弹出弹框
 	$(".picList li").each(function(i,e){
 		$(e).find(".caseni").click(function(){
+			$(".prot").hide();//关闭奖项弹窗
 			var intm = $(this).attr("ast");
 			// var mk = $(this).attr("mk");
 			// $(".case-mark .bomt").hide();

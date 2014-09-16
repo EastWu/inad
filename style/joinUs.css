@@ -57,10 +57,9 @@
 	font-size:17px;
 	line-height: 30px;
 	margin-top: 90px;
-}
-.zhengwen dl{
-	margin-bottom: 59px;
-	width: 623px;
+}.zhengwen dl{
+	/*margin-bottom: 59px;*/
+	/*width: 623px;*/
 	letter-spacing: 1px;
 }
 .zhengwen1{
@@ -69,55 +68,62 @@
 	font-size:17px;
 	margin-top: 60px;
 	line-height: 30px;
-	width: 623px;
+	/*width: 623px;*/
 	letter-spacing: 1px;
 }
 .zhengwen2{
 	color: #737171;
 	/*font-family: "黑体";*/
 	font-size:17px;
-	margin-top: 90px;
+	margin-top: 60px;
 	line-height: 30px;
-	width: 623px;
+	/*width: 623px;*/
 	letter-spacing: 1px;
 }
 .zhengwen2 dd{
-	margin-top: 59px;
+	/*margin-top: 59px;*/
 }
 .zhengwen3{
 	color: #737171;
 	/*font-family: "黑体";*/
 	font-size:17px;
-	margin-top: 90px;
+	margin-top: 60px;
 	line-height: 30px;
-	width: 623px;
+	/*width: 623px;*/
 	letter-spacing: 1px;
 }
 .zhengwen4{
 	color: #737171;
 	/*font-family: "黑体";*/
 	font-size:17px;
-	margin-top: 90px;
+	margin-top: 60px;
 	line-height: 30px;
-	width: 623px;
+	/*width: 623px;*/
 	letter-spacing: 1px;
 }
 .zhengwen5{
 	color: #737171;
 	/*font-family: "黑体";*/
 	font-size:17px;
-	margin-top: 90px;
+	margin-top: 60px;
 	line-height: 30px;
-	width: 623px;
+	/*width: 623px;*/
 	letter-spacing: 1px;
 }
 .zhengwen6{
 	color: #737171;
 	/*font-family: "黑体";*/
 	font-size:17px;
-	margin-top: 90px;
+	margin-top: 60px;
 	line-height: 30px;
-	width: 623px;
+	/*width: 623px;*/
 	letter-spacing: 1px;
 	margin-bottom: 92px;
+}
+
+.zhiweixushu dl{
+	font-weight: bold;
+}
+.zhiweixushu dt{
+	margin-top: 20px;
 }

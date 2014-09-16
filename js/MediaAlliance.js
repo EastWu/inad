@@ -44,7 +44,8 @@ function pcBtnCLick(){
 	}else if(pcId == 2){
 		showId = 5;
 	}else {
-		showId = 1;
+		// showId = 1;
+		alert("敬请期待!");
 	}
 	showContent(showId);
 }
@@ -63,6 +64,8 @@ function mobileBtnCLick(){
 		showId = 5;
 	}else if(mobileId == 2){
 		showId = 3;
+	}else{
+		alert("敬请期待!");
 	}
 	showContent(showId);
 }
