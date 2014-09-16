@@ -3,7 +3,7 @@
 	position: relative;
 	widows: 100%;
 	height: 613px;
-	/*background: #cccccc;*/
+	background: #000000;
 	overflow: hidden;
 }
 #banner img{
@@ -12,6 +12,13 @@
 	height: 613px;
 	left: 50%;
 	margin-left: -950px;
+}
+#bannerBlank{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	/*background: rgba(0,0,0,.5);*/
 }
 
 
@@ -55,16 +62,18 @@
 
 
 #info2Content{
-	position: absolute;
+	position: fixed;
 	width: 961px;
 	height: 613px;
 	left: 50%;
-	top: 1420px;
+	top: 50%;
+	margin-top: -306px;
 	margin-left: -480px;
 	border: solid 1px #c0bebf;
 	background: #ffffff;
 	text-align: center;
 	opacity: 0;
+	z-index: 301;
 	display: none;
 }
 #info2Content h1{
@@ -124,17 +133,19 @@
 }
 
 #info3Content{
-	position: absolute;
+	position: fixed;
 	width: 961px;
 	height: 613px;
 	left: 50%;
-	top: 2035px;
+	top: 50%;
+	margin-top: -306px;
 	margin-left: -480px;
 	border: solid 1px #c0bebf;
 	background: #ffffff;
 	text-align: center;
 	opacity: 0;
 	display: none;
+	z-index: 301;
 }
 #info3Content img{
 	margin-top: 14px;
@@ -388,6 +399,7 @@
 	margin-left: -20px;
 	/*margin-top: -11px;*/
 	bottom: 10px;
+	z-index: 10;
 }
 .leftLoop4 .hd .prev,.leftLoop4 .hd .next{ 
 	position: absolute;

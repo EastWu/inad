@@ -18,8 +18,8 @@
 .t-img { display:block;height:453px;margin:0 auto;width:963px; }
 .t-bot { margin-bottom:94px; }
 /*-- 弹框 --*/
-.bomt { background:#fff;border:1px #c0bebf solid;display:none;overflow:hidden;position:absolute;width:960px;z-index:600; }
-.h590 { height:590px;top:0;left:9px;text-align: center; }
+.bomt { background:#fff;border:1px #c0bebf solid;display:none;overflow:hidden;position:fixed;width:960px;z-index:600;left: 50%;top: 50%;margin-left: -480px;margin-top: -300px; }
+.h590 { height:590px;/*top:0;left:9px;*/text-align: center; }
 .bomt .close { background:url("../img/do/close.png") no-repeat 0 0;cursor:pointer;height:23px;position:absolute;right:10px;top:11px;width:23px; }
 .bomt img { display:block;height:470px;margin:14px auto 0;overflow:hidden;width:646px; }
 .bomt div { height:82px;margin:0 auto;padding-top:5px;width:700px; }

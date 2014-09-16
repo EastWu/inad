@@ -3,7 +3,7 @@
 /*-- 合作品牌 --*/
 .co-brandtit { color:#323131;font-size:30px;height:42px;line-height:42px;margin:0 auto;padding:82px 0 36px;text-align:center;width:1003px; }
 .co-brandtit a { color:#737171;font-size:12px;float:right;letter-spacing:5px; }
-.co-tab { height:30px;margin:0 auto;width:930px; }
+.co-tab { height:30px;margin:0 auto;width:950px; padding-left: 15px;}
 .co-tab span { color:#737171;cursor:pointer;float:left;font-size:18px;height:30px;line-height:30px;padding:0 17px; }
 .co-tab span.on { color:#333;font-weight:bold; }
 .co-cont { margin:0 auto;height:320px;width:1003px; }
@@ -47,12 +47,12 @@
 .report li a { color:#737171;font-size:18px;letter-spacing:5px;line-height:50px; }
 
 /*-- 弹框 --*/
-.bomt { background:#fff;border:1px #c0bebf solid;display:none;overflow:hidden;position:absolute;width:960px;z-index:600; }
 .h671,.h592 { bottom:-220px;left:-201px; }
 .h671 { height:671px; }
 .h592 { height:592px; }
 .bomt .close { background:url("../img/do/close.png") no-repeat 0 0;cursor:pointer;height:23px;position:absolute;right:10px;top:11px;width:23px; }
 
+.bomt { background:#fff;border:1px #c0bebf solid;display:none;overflow:hidden;position:fixed;width:960px;z-index:600;left: 50%;top: 50%;margin-left: -481px;margin-top: -330px; }
 /*视频弹框*/
 .vo-tit { height:34px;padding:35px 0 0 14px;width:90%; }
 .vo-tit span { color:#060606;cursor:pointer;font-size:16px;float:left;height:34px;line-height:34px;margin-left:44px;padding-right:15px;width:auto; }
@@ -105,11 +105,12 @@
 
 
 #info2Content{
-	position: absolute;
+	position: fixed;
 	width: 961px;
 	height: 613px;
 	left: 50%;
-	top: 600px;
+	top: 50%;
+	margin-top: -306px;
 	margin-left: -482px;
 	border: solid 1px #c0bebf;
 	background: #ffffff;

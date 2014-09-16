@@ -51,7 +51,7 @@ function setTab(){
 			$(".co-cont dd").eq(i).show();
 			var dd = $(".co-cont dd").eq(i);
 			if(mk=="0"){
-				dd.slide({ mainCell:".bd ul",effect:"leftLoop",scroll:1,autoPlay:false});
+				dd.slide({ mainCell:".bd ul",effect:"leftLoop",scroll:1,autoPlay:false,trigger:"click"});
 			}
 			$(e).attr("mk",parseInt(mk)+1);
 		});
@@ -66,6 +66,9 @@ $(function(){
 	$(".prize-wp .pro").each(function(i,e){
 		$(e).click(function(){
 
+			$(".blank").css("display","block");//显示半透明黑色
+			$("body,html").css("overflow","hidden");
+
 			TweenLite.to($("#info2Content"), 0, {delay:.1,css:{display:"none",opacity:0}, ease:Expo.easeOut});//关闭案例弹窗
 
 			var mk = $(e).attr("mk");
@@ -73,7 +76,7 @@ $(function(){
 			$(".prot").eq(i).show();
 			if(mk=="0"){
 				$(".prot").eq(i).find(".video-wp").find("dd").each(function(i,e){
-					$(e).slide({ mainCell:".bd ul",effect:"leftLoop",scroll:1,autoPlay:false});
+					$(e).slide({ mainCell:".bd ul",effect:"leftLoop",scroll:1,autoPlay:false,trigger:"click"});
 				});
 			}
 			$(e).attr("mk",parseInt(mk)+1);
@@ -82,6 +85,9 @@ $(function(){
 	
 	//关闭弹框
 	$(".bomt .close").click(function(){
+		$(".blank").css("display","none");//去掉半透明黑色
+		$("body,html").css("overflow","auto");
+	
 		$(this).parent().hide();
 		jwplayer("Player0").play(false);
 		jwplayer("Player1").play(false);
@@ -91,6 +97,10 @@ $(function(){
 	//点击案例弹出弹框
 	$(".picList li").each(function(i,e){
 		$(e).find(".caseni").click(function(){
+			$(".blank").css("display","block");//显示半透明黑色
+			$("body,html").css("overflow","hidden");
+
+
 			$(".prot").hide();//关闭奖项弹窗
 			var intm = $(this).attr("ast");
 			// var mk = $(this).attr("mk");
@@ -115,7 +125,7 @@ $(function(){
 			}
 
 			setTimeout(function(){
-				jQuery(".leftLoop3").slide({ mainCell:".bd ul",effect:"leftLoop",vis:1,scroll:1,autoPlay:false});
+				jQuery(".leftLoop3").slide({ mainCell:".bd ul",effect:"leftLoop",vis:1,scroll:1,autoPlay:false,trigger:"click"});
 			},9);
 
 			TweenLite.to($("#info2Content"), .3, {delay:.1,css:{display:"block",opacity:1}, ease:Expo.easeOut});
@@ -142,7 +152,7 @@ $(function(){
 		});
 	});
 	$(".vo-tit span").each(function(i,e){
-		$(e).hover(function(){
+		$(e).click(function(){
 			$(".vo-tit span").removeClass("on");
 			$(e).addClass("on");
 			funKey(i,e);
@@ -165,13 +175,16 @@ function info2BtnsClick(){
 	}
 
 	setTimeout(function(){
-		jQuery(".leftLoop3").slide({ mainCell:".bd ul",effect:"leftLoop",vis:1,scroll:1,autoPlay:false});
+		jQuery(".leftLoop3").slide({ mainCell:".bd ul",effect:"leftLoop",vis:1,scroll:1,autoPlay:false,trigger:"click"});
 	},9);
 
 	TweenLite.to($("#info2Content"), .3, {delay:.1,css:{display:"block",opacity:1}, ease:Expo.easeOut});
 	$("#info2Content #contentClose").click(info2ContentClose);
 }
 function info2ContentClose(){
+	$(".blank").css("display","none");//去掉半透明黑色
+	$("body,html").css("overflow","auto");
+
 	TweenLite.to($("#info2Content"), .3, {css:{display:"none",opacity:0}, ease:Expo.easeOut});
 }
 

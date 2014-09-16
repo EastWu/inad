@@ -67,6 +67,9 @@ function info2BtnsOut(){
 }
 function info2BtnsClick(){
 	// alert($(this).index());
+	$(".blank").css("display","block");//显示半透明黑色
+	$("body,html").css("overflow","hidden");
+
 	info2Id = $(this).children("div").attr("ast");
 	$("#info2Content").css("display","block");
 	$("#info2Content").empty();
@@ -88,6 +91,9 @@ function info2BtnsClick(){
 	$("#info2Content #contentClose").click(info2ContentClose);
 }
 function info2ContentClose(){
+	$(".blank").css("display","none");//去掉半透明黑色
+	$("body,html").css("overflow","auto");
+
 	TweenLite.to($("#info2Content"), .3, {css:{display:"none",opacity:0}, ease:Expo.easeOut});
 }
 
@@ -99,18 +105,23 @@ function info3BtnsOut(){
 	TweenLite.to($(this).children("div"), .3, {css:{display:"none",opacity:0}, ease:Cubic.easeOut});
 }
 function info3BtnsClick(){
+	$(".blank").css("display","block");//显示半透明黑色
+	$("body,html").css("overflow","hidden");
+
 	info3Id = $(this).index();
 	$("#info3Content").empty();
 	$("#info3Content").append("<img id='contentClose' src='img/MediaAlliance/inputClose.gif'>");
 	$("#info3Content").append("<img id='contentPic' src=" + infp3Pics[info3Id] + ">");
 	$("#info3Content").append("<h1>" + infp3Titles[info3Id] + "</h1>");
 	$("#info3Content").append("<p>" + infp3Txts[info3Id] + "</p>");
-	TweenLite.to($("#info3Content"), .3, {css:{top:"2035px",display:"block",opacity:1}, ease:Expo.easeOut});
+	TweenLite.to($("#info3Content"), .3, {css:{display:"block",opacity:1}, ease:Expo.easeOut});
 
 	$("#info3Content #contentClose").click(info3ContentClose);
 }
 function info3ContentClose(){
-	TweenLite.to($("#info3Content"), .3, {css:{top:"2035px",display:"none",opacity:0}, ease:Expo.easeOut});
+	$(".blank").css("display","none");//去掉半透明黑色
+	$("body,html").css("overflow","auto");
+	TweenLite.to($("#info3Content"), .3, {css:{display:"none",opacity:0}, ease:Expo.easeOut});
 }
 
 

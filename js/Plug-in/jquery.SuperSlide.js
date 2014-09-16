@@ -10,7 +10,7 @@
 		defaultIndex : 0,//默认的当前位置索引。0是第一个
 		titCell:".hd li",//导航元素
 		mainCell:".bd",//内容元素的父层对象
-		trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+		trigger: "click",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
 		scroll:1,//每次滚动个数。
 		vis:1,//visible，可视范围个数，当内容个数少于可视个数的时候，不执行效果。
 		titOnClassName:"on",//当前位置自动增加的class名称
