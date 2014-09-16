@@ -1,0 +1,165 @@
+﻿body{background:#fff ;color:#474747;font-family:"Arial","Helvetica";font-size:12px;line-height:18px;-webkit-text-size-adjust:none}hr{border:0;border-bottom:1px solid #dbdbdb;padding-top:25px;margin-bottom:25px}a{color:#474747;text-decoration:none}a:hover{color:#0a3576;text-decoration:underline}.wrapper{margin:0 auto;width:1000px}
+
+
+
+
+/*头部*/
+#header{
+    height: 116px;
+    background: #ffffff;
+    border-bottom: solid 1px #b7b3b3;
+}
+#header_content{
+	width: 1003px;
+	height: 116px;
+	margin: 0 auto;
+}
+#header_logo{
+	float: left;
+	width: 84px;
+	height: 42px;
+	margin-top: 42px;
+	background: url("../img/layout/logo.gif");
+}
+#header_menu{
+	float: right;
+	margin-top: 56px;
+	background: url("../img/layout/menu_I.gif") right center no-repeat;
+	/*border-right: dotted 1px #3c3c3c;*/
+}
+#header_menu li{
+	float: left;
+	width: 110px;
+	font-size: 12px;
+	text-align: center;
+	/*border-left: dotted 1px #3c3c3c;*/
+	background: url("../img/layout/menu_I.gif") left center no-repeat;
+	cursor: pointer;
+}
+#header_menu li a{
+	width: 110px;
+	display: block;
+}
+#header_shear{
+	float: right;
+	margin-top: 43px;
+	margin-left: 10px;
+}
+#header_shear li{
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+/*END*/
+
+
+
+
+
+
+/*底部*/
+#footer{
+    height: 244px;
+    background: #404040;
+    border-top: solid 1px #d9d9d9;
+	color: #d9d9d9;
+    font-size: 12px;
+}
+#footer_content{
+	width: 980px;
+	margin: 0 auto;
+}
+#footer_know{
+	float: left;
+	margin-top: 40px;
+	margin-right: 190px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+}
+#footer_know li{
+	margin-top: 20px;
+	font-size: 12px;
+}
+#footer_know li a{
+	color: #d9d9d9;
+}
+#footer_contact{
+	float: left;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+}
+#footer_contact li{
+	margin-top: 20px;
+	font-size: 12px;
+	color: #d9d9d9;
+}
+#footer_ewm{
+	float: right;
+	margin-top: 40px;
+}
+#footer_ewm p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+#footer_shear{
+	float: right;
+	margin-top: 115px;
+	margin-right: 80px;
+}
+#footer_shear_btns{
+	float: right;
+	margin-bottom: 12px;
+}
+#footer_shear_btns li{
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*END*/
+
+
+
+/*公用类*/
+.info{
+	margin: 0 auto;
+	margin-top: 160px;
+	width: 1003px;
+}
+.info h1{
+	color: #323131;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 26px;
+}
+.info a{
+	float: right;
+	font-size: 12px;
+	letter-spacing: 12px;
+}
+
+.btn{
+	opacity: .9;
+}
+.btn:hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

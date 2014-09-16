@@ -1,0 +1,123 @@
+.shangbuwenzi{
+	width: 952px;
+	height: 481px;
+	/*font-family: "黑体";*/
+	color: black;
+	/*border:1px solid black;*/
+	margin: 0 auto;
+}
+.tuanduiwenzi{
+	float: left;
+	line-height: 39px;
+	font-size: 15px;
+	margin-right: 202px;
+	width: 605px;
+	/*border:1px solid red;*/
+	color: #737171;
+	letter-spacing: 1px;
+	margin-top: 94px;
+	
+}
+.tuanduiwenzi h2{
+	font-weight: bold;
+	color: #000000;
+}
+.kaifangzhiwei{
+	float: left;
+	width: 119px;
+	/*border:1px solid blue;*/
+	margin-top: 94px;
+	font-size: 15px;
+	color: #737171;
+	line-height: 40px;
+}
+.kaifangzhiwei dt{
+	
+	/*font-family: "黑体";*/
+	font-weight: bold;
+	color: #323131;
+	line-height: 40px;
+	cursor: pointer;
+}
+#main img{
+	width: 952px;
+	height: 334px;
+	/*margin-bottom: 90px; 
+
+	/*border: 1px solid red;*/
+}
+#main{
+	margin:0 auto;
+	width: 952px;
+
+}
+.zhengwen{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	line-height: 30px;
+	margin-top: 90px;
+}
+.zhengwen dl{
+	margin-bottom: 59px;
+	width: 623px;
+	letter-spacing: 1px;
+}
+.zhengwen1{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	margin-top: 60px;
+	line-height: 30px;
+	width: 623px;
+	letter-spacing: 1px;
+}
+.zhengwen2{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	margin-top: 90px;
+	line-height: 30px;
+	width: 623px;
+	letter-spacing: 1px;
+}
+.zhengwen2 dd{
+	margin-top: 59px;
+}
+.zhengwen3{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	margin-top: 90px;
+	line-height: 30px;
+	width: 623px;
+	letter-spacing: 1px;
+}
+.zhengwen4{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	margin-top: 90px;
+	line-height: 30px;
+	width: 623px;
+	letter-spacing: 1px;
+}
+.zhengwen5{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	margin-top: 90px;
+	line-height: 30px;
+	width: 623px;
+	letter-spacing: 1px;
+}
+.zhengwen6{
+	color: #737171;
+	/*font-family: "黑体";*/
+	font-size:17px;
+	margin-top: 90px;
+	line-height: 30px;
+	width: 623px;
+	letter-spacing: 1px;
+	margin-bottom: 92px;
+}
