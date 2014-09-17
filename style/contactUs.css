@@ -6,7 +6,7 @@
 }
 
 #main{
-	width: 1003px;
+	width: 960px;
 	margin: 0 auto;
 }
 .zhuyaoneirong{
@@ -40,7 +40,7 @@
 
 }
 .dizhi3{
-	width: 291px;
+	width: 294px;
 	height: 606px;
 	float: right;
 
@@ -57,9 +57,12 @@
 }
 
 #banner{
-	width: 961px;
+	width: 960px;
 	height: 103px;
 	margin: 0 auto;
 	margin-top: 94px;
 	margin-bottom: 118px;
+}
+#banner img{
+	width: 960px;
 }

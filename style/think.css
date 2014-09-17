@@ -7,15 +7,15 @@
 .t-tit2,.t-tit3 { color:#323131;font-size:26px;letter-spacing:27px; }
 .t-tit2 { height:118px;line-height:118px; }
 .t-tit3 { height:72px;line-height:72px;padding-bottom:20px; }
-.t-wp,.t-wp ul { height:670px;width:980px; }
+.t-wp,.t-wp ul { height:670px;width:960px; }
 .t-wp { margin:0 auto;position:relative; }
 .t-wp ul li,.t-wp ul li img { cursor:pointer;float:left;height:315px;width:470px; }
-.t-wp ul li { background:#cdcccd;border-radius:2px;margin:0 10px 20px;overflow:hidden;position:relative; }
+.t-wp ul li { background:#cdcccd;border-radius:2px;margin:0 5px 10px;overflow:hidden;position:relative; }
 .t-wp ul li img,.t-wp ul li div { left:0;position:absolute;top:0; }
 .t-wp ul li img { z-index:200; }
 .t-wp ul li div { display:table;height:315px;width:470px;z-index:100; }
 .t-wp ul li div p { color:#fff;vertical-align:middle;display:table-cell;font-size:18px;line-height:28px;text-align:center; }
-.t-img { display:block;height:453px;margin:0 auto;width:963px; }
+.t-img { display:block;height:453px;margin:0 auto;width:960px; }
 .t-bot { margin-bottom:94px; }
 /*-- 弹框 --*/
 .bomt { background:#fff;border:1px #c0bebf solid;display:none;overflow:hidden;position:fixed;width:960px;z-index:600;left: 50%;top: 50%;margin-left: -480px;margin-top: -300px; }
